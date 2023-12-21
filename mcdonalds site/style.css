@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 10rem;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.100);
+    padding-bottom: .5rem;
+    margin-right: 90px;
+}
+
+.left{
+    margin-left: 150px;
+}
+
+.left img{
+    margin-bottom: 5px;
+}
+
+.right{
+    width: 1200px;
+   
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .9rem;
+    margin-left: .5rem;
+    margin-top: -20px;
+}
+
+.up > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.up > ul > li{
+    list-style: none;
+    margin: 0rem 1.6rem;
+    color: #292929;
+
+}
+
+.r-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-item > span{
+    color: gray;
+    margin-right: 2rem;
+}
+
+
+.r-item > img{
+    width: 1rem;
+    margin-right: .5rem;
+    opacity: .6;
+    margin-top: 2px;
+}
+
+.r-item > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 107, 255);
+    margin-right: 2rem;
+}
+
+.r-item > a > img{
+    width: 1.2rem;
+    margin-right: .5rem;
+}
+
+.order-now{
+    padding: .8rem 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: none;
+    background: rgb(255, 191, 0);
+    cursor: pointer;
+}
+
+.down{
+    padding-left: 1.7rem;
+    padding-top: 1.5rem;
+}
+
+.down a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    background: #f6f6f6;
+    padding: 100px 0px 0px;
+    width: 100%;
+}
+
+#image{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    margin-left: 250px;
+}
+
+#text1{
+    align-self: center;
+    margin-left: -120px;
+}
+
+h4{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.button{
+    background: #ffbc0d;
+    color: #292929;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.button-3{
+    background: #ffbc0d;
+    color: #292929;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.button-4{
+    background: #ffbc0d;
+    color: #292929;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+}
+
+.large-text{
+    margin-top: 20px;
+    letter-spacing: -.15px;
+    color: #292929;
+}
+
+.small-text{
+    font-size: 10px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.main-txt{
+    margin-top: 20px;
+}
+
+/*---footer-----*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container-f{
+    width: 200px;
+    margin: 1rem 3rem;
+}
+
+.bold{
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+    color: #292929;
+    padding-bottom: 13px;
+}
+
+.container-f p{
+    margin-bottom: .3rem;
+    font-size: 16px;
+    color: rgb(60, 60, 60);
+    cursor: pointer;
+}
+
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 12rem;
+    border-bottom: 1.5px solid gray;
+    margin-left: 200px;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right-four{
+    margin-right: 200px;
+}
+
+.futer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 30px;
+}
+
+.txt2{
+    margin-right: 300px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.text{
+    margin-left: 340px;
+    line-height: 2.6;
+}
